@@ -1,0 +1,7 @@
+$green : #87D37C;
+
+@mixin align-vertical {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

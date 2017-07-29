@@ -1,0 +1,45 @@
+header {
+  display: inline-flex;
+  width: 100%;
+  height: 60px;
+  background: #87D37C;
+  text-align: center; }
+  header img {
+    width: 200px;
+    float: left;
+    margin-left: 10px; }
+  header h1 {
+    color: white;
+    height: 100%;
+    font-size: 25px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+
+section {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  height: 100%;
+  margin: 10px auto; }
+  section th {
+    background: #2ECC71;
+    color: white; }
+    section th img {
+      width: 10px;
+      height: 10px; }
+  section a {
+    text-decoration: underline;
+    cursor: pointer;
+    color: black; }
+  section tbody img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 5px; }
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Martel', serif; }
